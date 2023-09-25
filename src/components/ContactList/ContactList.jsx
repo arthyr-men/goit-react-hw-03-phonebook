@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import ContactItem from '../ContactItem/ContactItem';
 import style from './ContactList.module.css';
@@ -24,8 +25,6 @@ const ContactList = ({ visibleContacts, onDeleteContact }) => {
   );
 };
 
-export default ContactList;
-
 ContactList.propTypes = {
   visibleContacts: PropTypes.arrayOf(
     PropTypes.shape({
@@ -33,3 +32,5 @@ ContactList.propTypes = {
     })
   ),
 };
+
+export default ContactList;

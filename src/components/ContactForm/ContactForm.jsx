@@ -77,11 +77,11 @@ class ContactForm extends Component {
         </label>
 
         <button type="submit" className={style.submit_btn}>
-        <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-          add contact
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Add contact
         </button>
       </form>
     );
